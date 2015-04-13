@@ -9,7 +9,7 @@ $(document).ready(function() {
     };
 
     $("ol#list").append("<li><span class='task'>" + newTask.task + "</span>  " +
-    "<button type='sumbit' class='btn btn-xs'><span class='glyphicon glyphicon-star-empty'></span></button></li>");
+    "<input type='checkbox'></li>");
 
 
     $("input#new_list_item").val("");
